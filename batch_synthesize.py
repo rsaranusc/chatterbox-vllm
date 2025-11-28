@@ -20,7 +20,7 @@ MAX_CHUNK_SIZE = 400  # characters
 #   40 seems to work for 16GB VRAM
 #   80 seems to work for 24GB VRAM
 # You may need to adjust the batch size based on your GPU memory.
-BATCH_SIZE = 15
+BATCH_SIZE = 80
 
 AUDIO_PROMPT = "docs/en-Rob_man.mp3"
 INPUT_DIR = "input"
