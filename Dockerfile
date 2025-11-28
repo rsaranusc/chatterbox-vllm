@@ -19,10 +19,6 @@ RUN mkdir -p /app/outputs
 
 # Set environment variables for the application
 ENV CHATTERBOX_CFG_SCALE=0.5
-ENV PYTHONPATH="/app/src:$PYTHONPATH"
 
 # Expose port for Gradio interface
 EXPOSE 7860
-
-# Default command
-CMD ["python3", "example-tts.py"]
