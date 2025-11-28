@@ -1,0 +1,44 @@
+# Python
+env/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+dev/
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.gradio/
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# Generated environment files
+*.env
+*.secrets
+/local.properties
+
+# Test files
+*.mp3
+*.wav
+trace.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Automatically regenerated
+t3-model/model.safetensors
+t3-model-multilingual/model.safetensors
